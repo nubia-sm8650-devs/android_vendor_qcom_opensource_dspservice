@@ -1,0 +1,5 @@
+service vendor.dsp-service /vendor/bin/hw/vendor.qti.hardware.dsp-service
+    class hal
+    interface aidl vendor.qti.hardware.dsp.IDspService/default
+    user system
+    group system
